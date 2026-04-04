@@ -199,6 +199,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Related Resources */}
+      <section className="py-16 bg-card/50 border-y border-border">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-4">相关资源</h2>
+            <p className="text-muted-foreground">延伸学习，拓展AI视频创作技能</p>
+          </div>
+          
+          <div className="flex justify-center">
+            <a
+              href="https://zjzforfb-jpg.github.io/dramas/aistudy.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative overflow-hidden rounded-xl border border-border bg-card p-6 max-w-md w-full transition-all hover:shadow-lg hover:-translate-y-1"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-violet-500/20 opacity-0 transition-opacity group-hover:opacity-100" />
+              <div className="relative flex items-start gap-4">
+                <div className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-accent text-indigo-500 shrink-0">
+                  <Sparkles className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">零门槛AI漫剧全流程教程</h3>
+                  <p className="text-sm text-muted-foreground">
+                    全程用豆包+即梦两个免费工具搞定，不用会画画、不用会剪辑，复制粘贴就能出片
+                  </p>
+                  <div className="mt-3 flex items-center text-sm font-medium text-primary">
+                    前往学习
+                    <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-border py-8 mt-auto">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
